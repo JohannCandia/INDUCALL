@@ -8,14 +8,19 @@ function App() {
 
   return (
     <>
-    <div>
-
-    <Navbar />
-    <Hero />
-    <Cards />
-    <Contact />
-    </div>
-      {/* <Maintance /> */}
+    
+    
+        <Navbar />
+        <div id="Inicio">
+          <Hero />
+        </div>
+        <div id="SobreNosotros">
+          <Cards />
+        </div>
+        <div id="Contacto">
+          <Contact />
+        </div>
+      
 
     </>
   )
