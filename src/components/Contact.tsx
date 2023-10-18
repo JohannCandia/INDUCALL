@@ -24,7 +24,7 @@ const Contact = () => {
   <section className="mb-32">
     <div className="flex justify-center">
       <div className="text-center md:max-w-xl lg:max-w-3xl">
-        <h2 className="mb-12 px-6 text-3xl font-bold">Contactanos! </h2>
+        <h2 className="mb-12 px-6 text-3xl font-bold">CONTACTANOS </h2>
       </div>
     </div>
 
@@ -53,7 +53,7 @@ const Contact = () => {
               <label htmlFor="exampleFormControlTextarea1"
                 className="floating-label pointer-events-none  top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-red-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-red-200 dark:peer-focus:text-primary">Mensaje</label>
             <textarea
-              className="peer block min-h-[auto] w-full rounded border border-1 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-red-200 dark:placeholder:text-red-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+              className="resize-none peer block min-h-[auto] w-full rounded border border-1 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-red-200 dark:placeholder:text-red-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
               id="exampleFormControlTextarea1" rows={3}  placeholder="Dejanos tu mensaje"></textarea>
           </div>
        
